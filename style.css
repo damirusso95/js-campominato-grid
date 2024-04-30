@@ -23,7 +23,7 @@ body{
 .square {
 	width: 80px;
 	height: 80px;
-	border: solid 1px red;
+	border: solid 1px rgb(23, 68, 247);
 }
 
 .selezionata{

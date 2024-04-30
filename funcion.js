@@ -7,7 +7,7 @@ function CreaQuadrato(contenuto) {
     console.log("click", this);
 
     // aggiungo classe al click
-    this.classList.add("selezionata");
+    this.classList.toggle("selezionata");
     
         });
 
