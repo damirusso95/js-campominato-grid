@@ -17,3 +17,21 @@
 // Spostate alcuni elementi in funzioni, ad esempio la creazione del quadrato e/o l'event listener.
 
 
+// MILESTONE #2
+
+// salvo la variabile sul dom virtuale della pagina
+let griglia = document.getElementById("grid");
+// creo un ciclo for
+for (let i = 1; i <= 100; i++) {
+    // salvo e creo il quadrato nel virtual dom
+    let square = document.createElement("div");
+
+    // aggiungo del testo che prendere il valore di "i" all'interno del quadrato
+    square.innerText = i
+
+    // aggiungo la classe square
+    square.classList.add("square");
+
+    // alla griglia aggiungo con append in quadrato nel dom
+    griglia.append(square);
+}
