@@ -34,4 +34,11 @@ for (let i = 1; i <= 100; i++) {
 
     // alla griglia aggiungo con append in quadrato nel dom
     griglia.append(square);
+
+    square.addEventListener("click", function(){
+        console.log("click");
+
+    });
+
+
 }
