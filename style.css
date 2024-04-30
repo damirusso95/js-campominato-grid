@@ -1,3 +1,4 @@
+/* reset */
 *{
     padding: 0;
     margin: 0;
@@ -8,4 +9,19 @@ body{
     font-family: sans-serif;
     background-color: black;
     color: aliceblue;
+}
+
+
+/* calssi per quadrati */
+#grid {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	width: 800px;
+}
+
+.square {
+	width: 80px;
+	height: 80px;
+	border: solid 1px red;
 }
