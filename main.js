@@ -47,3 +47,32 @@ for (let i = 1; i <= 100; i++) {
 }
 
 })
+
+
+
+
+// difficoltà normale
+btnNormale.addEventListener("click",function(){
+let griglia = document.getElementById("gridNorm");
+
+for (let i = 1; i <= 81; i++) {   
+
+    let elemento = CreaQuadrato(i);
+    griglia.append(elemento);
+}
+})
+
+
+
+// difficoltà Difficile
+btnHard.addEventListener("click",function(){
+    let griglia = document.getElementById("gridHard");
+    
+    for (let i = 1; i <= 49; i++) {   
+    
+        let elemento = CreaQuadrato(i);
+        griglia.append(elemento);
+    }
+    
+    })
+

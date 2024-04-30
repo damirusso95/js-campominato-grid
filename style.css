@@ -11,14 +11,14 @@ body{
     color: aliceblue;
 }
 
-#btnStart{
+#btnStart, #btnNormale, #btnDifficile {
     width: 50px;
     background-color: aliceblue;
     color: black;
 }
 
 
-/* calssi per quadrati */
+/* calssi per quadrati mod easy */
 #grid {
 	display: flex;
 	flex-wrap: wrap;
@@ -27,6 +27,45 @@ body{
 }
 
 .square {
+	width: 80px;
+	height: 80px;
+	border: solid 1px rgb(23, 68, 247);
+}
+
+.selezionata{
+    background-color: rgb(23, 68, 247);
+}
+
+
+
+/* calssi per quadrati mod normale*/
+#gridNorm {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	width:720px;
+}
+
+.squareNorm {
+	width: 80px;
+	height: 80px;
+	border: solid 1px rgb(23, 68, 247);
+}
+
+.selezionata{
+    background-color: rgb(23, 68, 247);
+}
+
+
+/* calssi per quadrati mod difficile*/
+#gridHard {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	width: 560px;
+}
+
+.squareHard {
 	width: 80px;
 	height: 80px;
 	border: solid 1px rgb(23, 68, 247);
