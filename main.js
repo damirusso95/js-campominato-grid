@@ -18,8 +18,8 @@
 
 
 // MILESTONE #2
-
-// salvo la variabile sul dom virtuale della pagina
+btnStart.addEventListener("click",function(){
+    // salvo la variabile sul dom virtuale della pagina
 let griglia = document.getElementById("grid");
 // creo un ciclo for
 for (let i = 1; i <= 100; i++) {
@@ -45,3 +45,5 @@ for (let i = 1; i <= 100; i++) {
 
 
 }
+
+})

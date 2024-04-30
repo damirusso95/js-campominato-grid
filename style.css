@@ -11,6 +11,12 @@ body{
     color: aliceblue;
 }
 
+#btnStart{
+    width: 50px;
+    background-color: aliceblue;
+    color: black;
+}
+
 
 /* calssi per quadrati */
 #grid {
