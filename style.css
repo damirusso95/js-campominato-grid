@@ -25,3 +25,7 @@ body{
 	height: 80px;
 	border: solid 1px red;
 }
+
+.selezionata{
+    background-color: rgb(23, 68, 247);
+}

@@ -23,22 +23,25 @@
 let griglia = document.getElementById("grid");
 // creo un ciclo for
 for (let i = 1; i <= 100; i++) {
-    // salvo e creo il quadrato nel virtual dom
-    let square = document.createElement("div");
+    // // salvo e creo il quadrato nel virtual dom
+    // let square = document.createElement("div");
 
-    // aggiungo del testo che prendere il valore di "i" all'interno del quadrato
-    square.innerText = i
+    // // aggiungo del testo che prendere il valore di "i" all'interno del quadrato
+    // square.innerText = i
 
-    // aggiungo la classe square
-    square.classList.add("square");
+    // ad ogni ciclo richiamo la funzione per creare il quadrato
+    let elemento = CreaQuadrato(i);
+
+    // // aggiungo la classe square
+    // square.classList.add("square");
 
     // alla griglia aggiungo con append in quadrato nel dom
-    griglia.append(square);
+    griglia.append(elemento);
 
-    square.addEventListener("click", function(){
-        console.log("click");
+    // elemento.addEventListener("click", function(){
+    // console.log("click");
 
-    });
+    // });
 
 
 }
