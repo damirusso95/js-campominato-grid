@@ -1,3 +1,5 @@
+
+// funzione crea quadrato
 function CreaQuadrato(contenuto) {
     let square = document.createElement("div");
     square.innerText = contenuto
@@ -14,3 +16,5 @@ function CreaQuadrato(contenuto) {
     // restituisco la funzione al chiamante
     return square;
 }
+
+
